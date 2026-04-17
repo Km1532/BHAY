@@ -1,0 +1,14 @@
+Recenzia od 1 osoby:
+Manuálny test: Prešiel som web pomocou klávesnice (TAB) a všetko funguje hladko. 
+Odkazy aj tlačidlá sú prístupné a pri zameraní (focuse) ich jasne vidieť.
+Automatický test: Prehnal som to cez Lighthouse a neukázalo to
+žiadne zásadné chyby v prístupnosti. Všetko sa zdá byť v poriadku.
+Recenzia od 2 osoby:
+Skontroloval som prístupnosť: navigácia cez TAB je bezproblémová,
+každý interaktívny prvok má viditeľný focus state.
+Aj Lighthouse potvrdil, že tam nie sú žiadne kritické chyby.
+Recenzia od 3 osoby:
+Pozrel som sa na tú prístupnosť. Ručne som to preklikal cez TAB 
+linky aj buttony reagujú fajn a sú dobre viditeľné.
+ Pustil som aj Lighthouse a výsledok je čistý, 
+žiadne veľké bugy tam nevidím.
