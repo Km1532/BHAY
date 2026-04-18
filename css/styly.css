@@ -344,3 +344,27 @@ nav a:focus,
 a {
     text-decoration: underline;
 }
+.skip-link {
+    position: fixed;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(90deg, #00c6ff, #b16cea);
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 0 20px rgba(0, 198, 255, 0.5), 0 0 40px rgba(177, 108, 234, 0.3);
+    backdrop-filter: blur(10px);
+    z-index: 9999;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.skip-link:focus {
+    top: 0;
+    outline: none;
+    box-shadow: 0 0 30px #00c6ff, 0 5px 15px rgba(0,0,0,0.5);
+}
